@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,8 +6,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Экзотические растения в условиях Днепра</title>
     <link rel="stylesheet" href="../styles/styles.css">
-   </head>
-   <body>
+  <script language="JavaScript">
+      i=0;
+      img_a=new Array()
+      img_h=new Array()
+      img_a[0]=new Image()
+      img_a[1]=new Image()
+      img_a[2]=new Image()
+      img_a[3]=new Image()
+      img_a[4]=new Image()
+      img_a[5]=new Image()
+      img_a[0].src="../images/exoticplants/images1.jpg"
+      img_a[1].src="../images/exoticplants/images2.jpg"
+      img_a[2].src="../images/exoticplants/images3.jpg"
+      img_a[3].src="../images/exoticplants/images4.jpg"
+      img_a[4].src="../images/exoticplants/images5.jpg"
+      img_a[5].src="../images/exoticplants/images6.jpg"
+      function img_b()
+      {
+      document.images[0].src=img_a[i].src
+      document.images[0].src=img_a[i].src
+      document.images[0].src=img_a[i].src
+      document.images[0].src=img_a[i].src
+      document.images[0].src=img_a[i].src
+      document.images[0].src=img_a[i].src
+      i++
+      if(i>5) i=0;
+      setTimeout("img_b()", 1500)
+      }
+</script>
+ </head>
+   <body onLoad=img_b()>
         <header>
         </header>
         <h1> ЭКЗОТИЧЕСКИЕ РАСТЕНИЯ В УСЛОВИЯХ ДНЕПРА  </h1>
@@ -86,7 +115,7 @@
            <section class="text">
              <article>
                
-                     <img src="../images/exoticplantsingarden/cat.jpg" class="div2">
+                     <img src="../images/exoticplants/images1.jpg" class="div2">
                <p>В современных условиях, когда климатические изменения привели к тому что стало трудно выращивать многие, традиционные для Украины растения. Поэтому, есть смысл рассмотреть некоторые субтропические расстения с точки зрения возможности выращивания в условиях Днепропетровской области как в открытом грунте, так и с применением зимних временных защитных конструкций. </p>
                      <div clacc="div1">      
                </div>
